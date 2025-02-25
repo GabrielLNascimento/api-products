@@ -14,11 +14,11 @@ router.get('/produtos', async (req, res) => {
 
 // Rota para criar um produto
 router.post('/produtos', async (req, res) => {
-    const { nome, preço, urlImagem } = req.body;
+    const { nome, preco, urlImagem } = req.body;
 
     const newProduct = new Product({
         nome,
-        preço,
+        preco,
         urlImagem,
     });
 

@@ -5,7 +5,7 @@ const productSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    preço: {
+    preco: {
         type: Number,
         required: true,
     },
